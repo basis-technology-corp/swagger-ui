@@ -82,7 +82,7 @@
           {{#if isReadOnly}}
           {{else}}
           <div class='sandbox_header'>
-            <input class='submit' name='commit' type='button' value='Try it out!' />
+            <button class='submit btn btn-default' name='commit'>Try it out!</button>
             <a href='#' class='response_hider' style='display:none'>Hide Response</a>
             <span class='response_throbber' style='display:none'></span>
           </div>
@@ -91,7 +91,7 @@
         <div class='response' style='display:none'>
           <h4>Request URL</h4>
           <div class='block request_url'></div>
-          <h4>Response Body <button type="button" class="fa fa-clipboard response-copy-button" data-toggle="tooltip" data-placement="right" title="Copy response to clipboard"></button></h4>
+          <h4>Response Body <button type="button" class="btn btn-xs btn-default response-copy-button zeroclipboard-is-hover" data-toggle="tooltip" data-placement="right" title="Copy response to clipboard"><i class="icon-copy"></i> Copy</button></h4>
           <div class='block response_body'></div>
           <h4>Response Code</h4>
           <div class='block response_code'></div>
