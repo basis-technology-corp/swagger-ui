@@ -144,7 +144,7 @@ var Docs = {
 
     showParamsBasedOnContentType: function($activeModel) {
         var selectedParameterContentType = $activeModel.find(".parameter-content-type option:selected").text()
-        if (selectedParameterContentType === "multipart/form-data") {
+        if (selectedParameterContentType === "multipart/mixed") {
             // show file inputs, hide others
             $activeModel.find("textarea.body-textarea").closest("tr").hide()
             $activeModel.find("input:file").closest("tr").show()
