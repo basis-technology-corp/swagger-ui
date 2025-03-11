@@ -15580,7 +15580,7 @@ module.exports = property;
 /*!
  *
  * Copyright 2009-2012 Kris Kowal under the terms of the MIT
- * license found at http://github.com/kriskowal/q/raw/master/LICENSE
+ * license found at https://github.com/kriskowal/q/raw/master/LICENSE
  *
  * With parts by Tyler Close
  * Copyright 2007-2009 Tyler Close under the terms of the MIT X license found
